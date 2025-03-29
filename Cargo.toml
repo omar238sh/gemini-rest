@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+clap = { version = "4", features = ["derive"] }
 dotenv = "0.15.0"
 reqwest = "0.12.15"
 serde = "1.0.219"
